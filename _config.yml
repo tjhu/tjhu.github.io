@@ -3,7 +3,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: Tianjiao Huang
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -16,16 +16,15 @@ author: Tianjiao Huang
 navbar-links:
   About Me: "/"
   Blog: "blog"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "#whatdoyouwant"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour here.
 round-avatar: true
@@ -41,21 +40,19 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "tianjih1@uci.edu"
+#  facebook: yourname
+  github: tjhu
+#  twitter: yourname
   rss: true
 #  reddit: yourname
-#  linkedin: daattali
+#  linkedin: yourname
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
+#  stackoverflow: "3456789/yourname"
+#  snapchat: yourname
+#  instagram: yourname
+#  youtube: user/yourname
+#  steam: yourname
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
@@ -103,7 +100,7 @@ footer-link-col: "#404040"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-119865229-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -203,6 +200,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - Makefile
   - README.md
   - screenshot.png
 
